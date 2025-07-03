@@ -1,0 +1,24 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="st" class="org.example.Student">
+    </bean>
+    <bean  id="fun" class="org.example.SpringBoot">
+    </bean>
+
+    <bean id="newtask1" class ="org.example.Assessment">
+    </bean>
+    <bean id ="newtask2" class ="org.example.Assessment">
+    </bean>
+
+    <bean id="studentslist" class = "org.example.Attendance">
+    </bean>
+    <bean id ="studentslist2" class="org.example.Attendance">
+    </bean>
+
+    <bean id="achievement" class ="org.example.Certification">
+    </bean>
+    <bean id="achievement2" class ="org.example.Certification">
+    </bean>
+</beans>
